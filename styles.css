@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headder{
+    background-color: rgb(4, 123, 213) ;
+}
+.head{
+    display: flex; 
+    justify-content: space-between;
+}
+.fa-bars{
+    color: white;
+    margin-top:20px;
+    margin-left: 15px;
+    font-size: 15px; 
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.shop{
+    height: 50px;
+    width: 60px;
+    margin-left: 15px;
+}
+.nav-item{
+    display: inline-block;
+     margin-right: 10px;
+     margin-top: 15px;
+}
+.fa-bell{
+      color: white;   
+      font-size: 12px;
+}
+.fa-shopping-cart{
+    color: white;
+    font-size: 12px;
+}
+input{
+    display:block;
+    width   : 95%;
+    height: 40px;
+    padding-left:30px ;
+    margin-bottom: 10px;
+}
+.search-icon{
+    display: flex;
+    width: 100%;
+}
+.fa-search{
+    margin-left: -95%;
+    margin-top: 3.5%;
+    padding-left: 2%;
+    color: grey;
+}
+.fa-microphone{
+    margin-left: 80%;
+    margin-top: 3.5%;
+    color: skyblue;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fashion-image{
+    width: 50px;
+    height: 45px;
+    margin: 10px 0 0 10px ;
+}
+.headding1{
+    font-size: 11px;
+    margin-left: 15px;
+}
+.headding2{
+    font-size: 11px;
+    margin-left: 10px;
+}
+.boat-image{
+    width: 100%;
+    margin-top: 10px;
+}
+.display1{
+    width: 100%;
+    height: 45vh;
+}
+.display2{
+    width: 100%;
+    height: 55vh;
+}
+.card1{
+    display: inline-block;
+    margin-top: 10px;
+    background-color:	rgb(245,255,250);
+    width: 100%;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-size: 11px;
+    margin-left: 5px;
+}
+.but1{
+    background-color: #008CBA;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+}
+.shoes-section1{
+    border: 0.5px solid gray;
+}
+.shoes1{
+  width: 75%;
+  margin: 10%;
+}
+.discription1{
+    font-size: 0.8rem;
+    max-width: 180px;
+    padding-left: 25px;
+    text-align: center;
+}
+.section2{
+    display: flex;
+}
+.shoes2{
+    width: 100px;
+    margin: 10px;
+}
+.shoes3{
+    width: 1px;
+    margin: 10px;
+}
+.discription2{
+    font-size: 11px;
+    margin-left: 10px;
+}
+.shoes-section2{
+    border: 0.5px solid gray;
+}
+.discription3{
+    margin-left: 20%;
+    font-size: 0.9rem;
+}
+.laptop{
+    display: inline-block;
+    width: 70%;
+    margin: 10%;
+}
+.discription5{
+    font-size: 0.8rem;
+    padding-left: 5%;
+    text-align: center;
+}
+
+.card2{
+    display: inline-block;
+    margin-top: 15px;
+    background-color:	rgb(221, 230, 225);
+    width: 100%;
+}
+.mobile{
+    margin: 10px;
+}
+.discription4{
+    margin-left: 10%;
+    
+    font-size: 0.9rem;
+}
+.speakers{
+    width: 100px;
+    margin:10px;
+}
+.brokage{
+    margin-top: 20px;
+    width: 100%;
+    height: 40vh;
+}
+.discount{
+    margin-top: 20px;
+    width: 100%;
+    height: 35vh;
+}
+.section-shoes{
+    display: none;
+}
+.mouse-section{
+    display: none;
+}
+.another-section{
+   display: flex;
+   }
+
+@media screen and (min-width: 1024px) {
+       .section2{
+           justify-content: space-between;
+       }
+       .another-section{
+        justify-content: space-between; 
+       }
+      .shoes-section2{
+          display: flex;
+          justify-content: space-between;
+      }
+      .shoes1{
+          width: 50%;
+          margin: 10px;
+      }
+      .shoes2{
+          width: 50%;
+          margin: 10px;
+      }
+      .shoes3{
+        width: 50%;
+        height: 15vh;
+        margin: 10px;
+    }
+    .section-shoes{
+        display: inline-block;
+    }
+      .shoes4{
+        width: 50%;
+        
+        margin: 10px;
+    }
+      .shoes-section2{
+        border:none;
+    }
+    .shoes-section1{
+        border:none;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+    .speakres-image{
+        display: flex;
+        justify-content: space-between;
+    }
+    .speakers{
+        width: 50%;
+    }
+    .mouse{
+        display: inline-block;
+        width: 50%;
+    }
+  
+}
